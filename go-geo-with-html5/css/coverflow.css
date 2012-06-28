@@ -1,0 +1,46 @@
+body{position: relative; background: #272727; margin: auto;}
+canvas, img{position: absolute;}
+
+#coverflow{ height: 375px; margin: auto; overflow: hidden; 
+                  position: relative; width: 530px;
+}
+
+#title {
+	border-bottom: 1px dashed #666666;
+}
+#coverflow-label { 
+	padding-top: 12px;
+	padding-right: 17px;
+	padding-bottom: 3px;
+	background-color: #272727;
+	text-align: right;
+	color: #fff;
+	font-family: Verdana, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+#coverflow-label a { font-size:12px; color:#0099FF; }
+
+#coverflow-holder{ width: 600px;  margin-left: 25%; margin-top: 20%; background:#272727; padding:15px 0; }
+#footer {
+	position: fixed;
+	text-align: right;
+	border-top: 1px dashed #666666;
+	background-color: #003333;
+	color: #ff6600;
+	top: auto;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-top: 6px;
+	padding-right: 8px;
+	padding-bottom: 3px;
+	display: none;
+}
+
+#imagebox {
+	margin-left: 18%;
+	margin-right: 25%;
+	padding: 16px;
+}
+
